@@ -1,0 +1,26 @@
+/* Center-align the thumbnail container */
+.carousel .thumbs-wrapper {
+    display: flex;
+    justify-content: center; /* Center thumbnails horizontally */
+    padding: 10px 0; /* Optional: Add padding around thumbnails */
+  }
+  
+  /* Center-align the thumbnail images */
+  .carousel .thumbs {
+    display: flex;
+    justify-content: center; /* Ensures thumbnails are centered */
+    gap: 10px; /* Add spacing between thumbnails */
+  }
+  
+  /* Style individual thumbnail images */
+  .carousel .thumb {
+    margin: 0 5px; /* Optional: Add space around each thumbnail */
+    border: 2px solid transparent; /* Add border for styling */
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  .carousel .thumb.selected {
+    border-color: #007bff; /* Highlight the selected thumbnail */
+  }
+  
