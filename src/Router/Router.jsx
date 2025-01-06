@@ -4,6 +4,8 @@ import {
 import Home from "../Home/Home";
 import HomeLayout from "../Layout/HomeLayout";
 import Banner from "../Home/Banner";
+import Category from "../Home/Category";
+
 
   const router = createBrowserRouter([
     {
@@ -13,7 +15,8 @@ import Banner from "../Home/Banner";
           {
             path:'/',
             element:<Banner></Banner>
-          }
+          },
+
       ]
     },
   ]);
